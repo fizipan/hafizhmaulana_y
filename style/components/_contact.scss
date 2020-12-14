@@ -32,13 +32,13 @@
           padding: 0.8em 1.8em;
 
           @include media-breakpoint-down(md) {
-            padding: 0.4em 0.8em;
+            padding: 10px 15px;
           }
+
           font-size: 16px;
           &.btn-email {
             background-color: #ffaf29;
             font-weight: 600;
-            padding: 0.8em 1.8em;
             font-size: 16px;
             color: #252734;
 

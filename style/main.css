@@ -11316,13 +11316,13 @@ body {
 
 @media (max-width: 767.98px) {
   .page-content {
-    margin-top: 100px;
+    margin-top: 40px;
   }
 }
 
 footer {
   background-color: #252734;
-  padding: 3rem 0 5rem 0;
+  padding: 5rem 0 8rem 0;
 }
 
 footer h5, footer .h5 {
@@ -11333,8 +11333,8 @@ footer h5, footer .h5 {
 
 @media (max-width: 767.98px) {
   footer h5, footer .h5 {
-    margin-bottom: 10px;
-    font-size: 28px;
+    margin-bottom: 30px;
+    font-size: 24px;
   }
 }
 
@@ -11342,7 +11342,7 @@ footer .information-text {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 28px;
   color: #cecece;
 }
@@ -11368,13 +11368,19 @@ footer .sosmed-wrap {
   }
 }
 
-footer .sosmed-wrap .thumbnail-sosmed img {
-  -webkit-transition: all 200ms;
-  transition: all 200ms;
+footer .sosmed-wrap .thumbnail-sosmed {
+  position: relative;
+  width: 25px;
+  height: 25px;
 }
 
-footer .sosmed-wrap .thumbnail-sosmed img:hover {
-  opacity: 0.6;
+footer .sosmed-wrap .thumbnail-sosmed:hover {
+  opacity: 0.7;
+}
+
+footer .sosmed-wrap .thumbnail-sosmed img {
+  width: 100%;
+  height: 100%;
 }
 
 .navbar-portofolio {
@@ -11454,7 +11460,7 @@ footer .sosmed-wrap .thumbnail-sosmed img:hover {
           align-items: center;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
   .navbar-mobile .container .nav-right ul {
     position: absolute;
     top: 0;
@@ -11463,7 +11469,7 @@ footer .sosmed-wrap .thumbnail-sosmed img:hover {
     right: 0;
     height: 100vh;
     width: 100%;
-    padding-left: 0;
+    padding-left: 1.2rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -11535,7 +11541,7 @@ footer .sosmed-wrap .thumbnail-sosmed img:hover {
           justify-content: space-between;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
   .navbar-mobile .container .nav-right .menu-toggle {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -11596,7 +11602,7 @@ footer .sosmed-wrap .thumbnail-sosmed img:hover {
 
 @media (max-width: 767.98px) {
   .page-home h2, .page-home .h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -11617,15 +11623,39 @@ footer .sosmed-wrap .thumbnail-sosmed img:hover {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  opacity: 0.8;
+}
+
+@media (max-width: 767.98px) {
+  .page-home p.subtitle-text {
+    font-size: 14px;
+  }
 }
 
 .page-home .sosmed-wrap {
-  width: 90% !important;
-  margin: 0 !important;
+  width: 10%;
+}
+
+@media (max-width: 767.98px) {
+  .page-home .sosmed-wrap {
+    width: 90% !important;
+    margin: 0 !important;
+  }
+}
+
+.page-home .sosmed-wrap .sosmed {
+  position: relative;
+  width: 25px;
+  height: 25px;
 }
 
 .page-home .sosmed-wrap .sosmed:hover {
   opacity: 0.7;
+}
+
+.page-home .sosmed-wrap .sosmed img {
+  width: 100%;
+  height: 100%;
 }
 
 .page-home .sosmed-wrap .btn-email {
@@ -11836,7 +11866,7 @@ footer .sosmed-wrap .thumbnail-sosmed img:hover {
 
 .projects .container-project .description-project h3, .projects .container-project .description-project .h3 {
   font-weight: bold;
-  font-size: 28px;
+  font-size: 24px;
   color: #ffffff;
   margin-bottom: 5px;
 }
@@ -11844,7 +11874,7 @@ footer .sosmed-wrap .thumbnail-sosmed img:hover {
 .projects .container-project .description-project .subtitle-text {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
   color: #ffaf29;
 }
 
@@ -11930,14 +11960,13 @@ footer .sosmed-wrap .thumbnail-sosmed img:hover {
 
 @media (max-width: 767.98px) {
   .contact .card .card-body .button-contact .btn {
-    padding: 0.4em 0.8em;
+    padding: 10px 15px;
   }
 }
 
 .contact .card .card-body .button-contact .btn.btn-email {
   background-color: #ffaf29;
   font-weight: 600;
-  padding: 0.8em 1.8em;
   font-size: 16px;
   color: #252734;
 }
@@ -12070,7 +12099,7 @@ footer .sosmed-wrap .thumbnail-sosmed img:hover {
 
 @media (max-width: 767.98px) {
   .youtube h4, .youtube .h4 {
-    font-size: 20px !important;
+    font-size: 18px !important;
     margin-top: 20px;
   }
   .youtube .youtube-wrap {
@@ -12094,11 +12123,12 @@ footer .sosmed-wrap .thumbnail-sosmed img:hover {
 }
 
 .youtube .row-youtube p {
-  margin-top: 20px;
+  margin-top: 15px;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 30px;
-  color: #ececec;
+  color: white;
+  opacity: 0.8;
 }
 
 .youtube .row-youtube .youtube-wrap {
@@ -12107,7 +12137,7 @@ footer .sosmed-wrap .thumbnail-sosmed img:hover {
 
 @media (max-width: 767.98px) {
   .youtube .row-youtube .youtube-wrap {
-    width: 60% !important;
+    width: 70% !important;
   }
 }
 
