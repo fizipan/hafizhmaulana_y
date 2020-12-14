@@ -11316,7 +11316,7 @@ body {
 
 @media (max-width: 767.98px) {
   .page-content {
-    margin-top: 40px;
+    margin-top: 60px;
   }
 }
 
@@ -11342,7 +11342,7 @@ footer .information-text {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 28px;
   color: #cecece;
 }
@@ -11470,6 +11470,7 @@ footer .sosmed-wrap .thumbnail-sosmed img {
     height: 100vh;
     width: 100%;
     padding-left: 1.2rem;
+    padding-top: 1.5rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -11501,7 +11502,7 @@ footer .sosmed-wrap .thumbnail-sosmed img {
 
 .navbar-mobile .container .nav-right ul li .navigation-link {
   display: inline-block;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 16px;
   line-height: 27px;
   color: #ffffff;
@@ -11626,12 +11627,6 @@ footer .sosmed-wrap .thumbnail-sosmed img {
   opacity: 0.8;
 }
 
-@media (max-width: 767.98px) {
-  .page-home p.subtitle-text {
-    font-size: 14px;
-  }
-}
-
 .page-home .sosmed-wrap {
   width: 10%;
 }
@@ -11678,6 +11673,9 @@ footer .sosmed-wrap .thumbnail-sosmed img {
 
 @media (max-width: 767.98px) {
   .all-projects .nav-pills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -11694,13 +11692,12 @@ footer .sosmed-wrap .thumbnail-sosmed img {
   opacity: 0.6;
   padding: 0;
   margin-right: 40px;
-  margin-left: 12px;
   border-radius: 0;
 }
 
 @media (max-width: 767.98px) {
   .all-projects .nav-pills .nav-item .nav-link {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -11926,6 +11923,12 @@ footer .sosmed-wrap .thumbnail-sosmed img {
 .contact .card .card-body h4, .contact .card .card-body .h4 {
   margin: 0;
   font-weight: bold;
+}
+
+@media (max-width: 767.98px) {
+  .contact .card .card-body h4, .contact .card .card-body .h4 {
+    font-size: 16px;
+  }
 }
 
 .contact .card .card-body .button-contact {

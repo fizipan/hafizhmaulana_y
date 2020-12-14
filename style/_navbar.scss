@@ -70,6 +70,7 @@
           height: 100vh;
           width: 100%;
           padding-left: 1.2rem;
+          padding-top: 1.5rem;
           align-items: center;
           justify-content: space-evenly;
           flex-direction: column;
@@ -89,7 +90,7 @@
 
           .navigation-link {
             display: inline-block;
-            font-weight: normal;
+            font-weight: 600;
             font-size: 16px;
             line-height: 27px;
             color: #ffffff;

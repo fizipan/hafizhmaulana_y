@@ -7,6 +7,7 @@
 
   .nav-pills {
     @include media-breakpoint-down(md) {
+      display: flex;
       justify-content: center;
     }
     .nav-item {
@@ -20,11 +21,10 @@
         opacity: 0.6;
         padding: 0;
         margin-right: 40px;
-        margin-left: 12px;
         border-radius: 0;
 
         @include media-breakpoint-down(md) {
-          font-size: 18px;
+          font-size: 16px;
         }
 
         &.active {
