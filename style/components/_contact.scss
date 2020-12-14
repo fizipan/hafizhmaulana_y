@@ -1,0 +1,110 @@
+.contact {
+  margin-top: 100px;
+
+  .card {
+    border: none;
+    .card-body {
+      background-color: #252734 !important;
+      padding: 40px 40px;
+
+      @include media-breakpoint-down(md) {
+        padding: 40px 10px 30px 10px;
+      }
+
+      h4 {
+        margin: 0;
+        font-weight: bold;
+      }
+
+      .button-contact {
+        display: flex;
+        justify-content: end;
+
+        @include media-breakpoint-down(md) {
+          justify-content: space-between !important;
+        }
+
+        @include media-breakpoint-down(lg) {
+          justify-content: center !important;
+        }
+
+        .btn {
+          padding: 0.8em 1.8em;
+
+          @include media-breakpoint-down(md) {
+            padding: 0.4em 0.8em;
+          }
+          font-size: 16px;
+          &.btn-email {
+            background-color: #ffaf29;
+            font-weight: 600;
+            padding: 0.8em 1.8em;
+            font-size: 16px;
+            color: #252734;
+
+            &:hover {
+              background-color: #ce8404;
+            }
+          }
+        }
+      }
+
+      @include media-breakpoint-down(lg) {
+        h4 {
+          margin: auto;
+        }
+
+        .button-contact {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+.shake-button.shake {
+  animation: shake 800ms;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(10deg) scale(1.02);
+  }
+
+  10% {
+    transform: rotate(-10deg) scale(1.02);
+  }
+
+  20% {
+    transform: rotate(10deg) scale(1.02);
+  }
+
+  30% {
+    transform: rotate(-10deg) scale(1.02);
+  }
+  30% {
+    transform: rotate(10deg) scale(1.02);
+  }
+  40% {
+    transform: rotate(-10deg) scale(1.02);
+  }
+  50% {
+    transform: rotate(10deg) scale(1.02);
+  }
+  60% {
+    transform: rotate(-10deg) scale(1.02);
+  }
+  70% {
+    transform: rotate(10deg) scale(1.02);
+  }
+  80% {
+    transform: rotate(-10deg) scale(1.02);
+  }
+  90% {
+    transform: rotate(10deg) scale(1.02);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}

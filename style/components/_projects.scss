@@ -1,0 +1,66 @@
+.projects {
+  margin-top: 150px;
+
+  h5 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  hr {
+    width: 300px;
+    margin-left: 10px;
+    border-top: 4px solid white;
+  }
+
+  .container-project {
+    display: inline-block;
+    margin-bottom: 80px;
+    text-decoration: none;
+
+    .description-project {
+      margin-top: 20px;
+      h3 {
+        font-weight: bold;
+        font-size: 28px;
+        color: #ffffff;
+        margin-bottom: 5px;
+      }
+
+      .subtitle-text {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        color: #ffaf29;
+      }
+    }
+
+    .thumbnail-img {
+      position: relative;
+      border-radius: 8px;
+
+      .project-image {
+        border-radius: 8px;
+      }
+
+      .icon-eye {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        opacity: 0;
+        border-radius: 8px;
+        transition: all 0.8s;
+      }
+    }
+
+    &:hover,
+    &:focus {
+      .icon-eye {
+        opacity: 1;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.skills {
+  margin-top: 100px;
+  h5 {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-style: normal;
+  }
+
+  hr {
+    width: 151px;
+    margin: auto;
+    border-top: 4px solid white;
+  }
+
+  .thumbnail-skill {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+
+    img {
+      border-radius: 8px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+// Import Bootstrap 4 Library
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+
+// global style
+@import "global";
+@import "fonts";
+@import "navbar";
+
+// pages
+@import "pages/home";
+@import "pages/all-projects";
+
+// components
+@import "components/services";
+@import "components/projects";
+@import "components/contact";
+@import "components/youtube";
+@import "components/skills";
+@import "components/testimoni";

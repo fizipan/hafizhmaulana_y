@@ -1,0 +1,59 @@
+.testimoni {
+  margin-top: 100px;
+  min-height: 500px;
+  padding: 7rem 0;
+
+  background-color: #161824;
+
+  #carouselExampleIndicators {
+    min-height: 300px;
+
+    @include media-breakpoint-down(md) {
+      min-height: 650px;
+    }
+  }
+
+  .carousel-indicators {
+    margin: 250px 0 0 100px;
+
+    @include media-breakpoint-down(md) {
+      justify-content: center !important;
+      margin: 1500px 0 0 0 !important;
+    }
+
+    li {
+      &.active {
+        background-color: #ffaf29;
+      }
+    }
+  }
+
+  .carousel-item {
+    font-style: normal;
+
+    @include media-breakpoint-down(md) {
+      text-align: center;
+      .testi-text {
+        margin-top: 20px;
+      }
+    }
+
+    .testi-text {
+      font-weight: normal;
+      color: rgba(212, 212, 212, 0.867);
+      line-height: 30px;
+    }
+
+    .name-testi {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .from-testi {
+      margin-top: 5px;
+      font-size: 14px;
+      font-weight: 300;
+      color: rgba(212, 212, 212, 0.867);
+    }
+  }
+}
