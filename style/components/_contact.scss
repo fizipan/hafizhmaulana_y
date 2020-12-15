@@ -37,13 +37,13 @@
 
           @include media-breakpoint-down(md) {
             padding: 10px 15px;
+            font-size: 14px;
           }
 
           font-size: 16px;
           &.btn-email {
             background-color: #ffaf29;
             font-weight: 600;
-            font-size: 16px;
             color: #252734;
 
             &:hover {
